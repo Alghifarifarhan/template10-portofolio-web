@@ -1,4 +1,4 @@
-# 📘 PANDUAN PENGELOLAAN WEBSITE PORTOFOLIO & INFORMASI KUOTA (README2)
+# 📘 PANDUAN PENGELOLAAN WEBSITE PORTOFOLIO
 
 Panduan ini disusun dengan bahasa yang sederhana, praktis, dan mudah dipahami oleh siapa saja (bahkan untuk orang awam tanpa latar belakang IT) untuk mengelola dan mengisi seluruh konten website portofolio Anda.
 
@@ -160,36 +160,6 @@ Website ini sudah dilengkapi **Teknologi Konversi Otomatis Google Drive**. Anda 
    _(Contoh format link yang Anda dapat: `https://drive.google.com/file/d/1A2b3C4d.../view?usp=sharing`)_
 6. Buka halaman admin website Anda &rarr; Tempelkan (_Paste_) link tersebut ke kolom **Foto About**, **Foto Proyek**, atau **Link File CV**.
 7. Klik **"Simpan Semua Perubahan"**. Selesai! Foto akan otomatis tampil jernih dan proporsional.
-
----
-
-## 4. Statistik Website & Batasan Kuota Kunjungan
-
-Di halaman admin terdapat menu **📊 Statistik Website** yang menampilkan performa website Anda secara langsung:
-
-### 1. Metrik yang Dicatat:
-
-- **Total Kunjungan (Pageviews)**: Berapa kali halaman website Anda dibuka oleh orang-orang.
-- **Pengunjung Unik**: Jumlah orang/perangkat berbeda yang pernah membuka website Anda.
-- **Unduhan CV**: Berapa kali tombol Download CV diklik oleh perekrut/klien.
-- **Klik Proyek**: Berapa kali link eksternal portofolio Anda diklik.
-
----
-
-### 2. Penjelasan Batasan Kuota (Google Firebase Spark Plan):
-
-Website Anda di-hosting di server global Google Firebase tanpa biaya bulanan selamanya. Berikut rincian kuotanya:
-
-| Fitur                       | Kuota yang Diberikan        | Penjelasan Sederhana untuk Orang Awam                                                                                                                 |
-| :-------------------------- | :-------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Bandwidth Kunjungan**     | **10 GB per Bulan**         | Setara dengan **10.000 hingga 50.000 pengunjung setiap bulan**. Untuk website portofolio pribadi, kuota ini sangat berlimpah dan jarang sekali habis. |
-| **Database Baca (Reads)**   | **50.000 kali per Hari**    | Website sudah dilengkapi _Instant 0ms Cache_, sehingga 1 pengunjung hanya memakai 1-2 baca database saja.                                             |
-| **Database Tulis (Writes)** | **20.000 kali per Hari**    | Kuota untuk Anda saat menyimpan editan di admin atau mencatat klik. Sangat cukup untuk aktivitas harian.                                              |
-| **Penyimpanan Database**    | **1 GB Gratis**             | Cukup untuk ribuan teks proyek portofolio.                                                                                                            |
-| **Keamanan SSL (HTTPS)**    | **Gratis & Aktif Otomatis** | Website Anda selalu memiliki ikon gembok aman (HTTPS) resmi dari Google.                                                                              |
-
-> ℹ️ **Apakah kuota akan di-reset?**  
-> Ya! Kuota harian di-reset otomatis setiap tengah malam, dan kuota bandwidth bulanan (10 GB) di-reset otomatis setiap tanggal 1 di awal bulan.
 
 ---
 
