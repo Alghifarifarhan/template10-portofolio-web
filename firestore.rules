@@ -1,0 +1,24 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Siapa saja (publik) dapat membaca data portofolio
+    // Hanya user terotentikasi (Admin) yang dapat mengubah/menyimpan data
+    match /content/portfolio {
+      allow read: if true;
+      allow write: if request.auth != null;
+    }
+
+    // Statistik kunjungan & klik: publik dapat membaca dan meng-update counter
+    match /stats/analytics {
+      allow read: if true;
+      allow write: if true;
+    }
+    
+    // Default fallback rules
+    match /{document=**} {
+      allow read: if true;
+      allow write: if request.auth != null;
+    }
+  }
+}
