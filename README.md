@@ -1,4 +1,4 @@
-# 🌟 Luther Portfolio - Modern Full-Stack Dynamic CMS
+# 🌟 Template 10 Luther Portfolio - Modern Full-Stack Dynamic CMS
 
 [![Next.js](https://img.shields.io/badge/Next.js-15.3.3-black?style=flat&logo=next.js)](https://nextjs.org/)
 [![React](https://img.shields.io/badge/React-19.0.0-61dafb?style=flat&logo=react)](https://react.dev/)
@@ -217,39 +217,6 @@ Buka browser dan akses:
 4. Klik **"Daftar Akun Admin"**.
 5. Anda akan langsung diarahkan ke dasbor CMS untuk mulai melengkapi seluruh data portofolio Anda.
 6. *Catatan:* Untuk panduan pengisian konten langkah demi langkah yang ramah bagi pengguna awam, silakan baca [`README2.md`](./README2.md).
-
----
-
-## 📦 Build & Deployment
-
-### Build Produksi
-Untuk menguji hasil kompilasi dan ekspor statis:
-
-```bash
-npm run build
-```
-
-Hasil build berupa file HTML, CSS, dan JS statis akan tersimpan di dalam folder `out/`.
-
-### Deploy ke Firebase Hosting
-1. Pasang Firebase CLI (jika belum ada):
-   ```bash
-   npm install -g firebase-tools
-   ```
-2. Login ke Firebase:
-   ```bash
-   firebase login
-   ```
-3. Hubungkan proyek Anda:
-   ```bash
-   firebase use <PROJECT_ID_ANDA>
-   ```
-4. Deploy aplikasi:
-   ```bash
-   firebase deploy
-   ```
-
-Aplikasi Anda kini sudah live dan dapat diakses publik melalui domain gratis Firebase (`https://<project-id>.web.app`).
 
 ---
 
